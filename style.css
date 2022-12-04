@@ -1,0 +1,159 @@
+/*CSS Dosyası*/
+
+/*Boşlukları Sıfırla*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+#sayfa{
+    width: 100%;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+#banner{
+    width: 100%;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color:#E5D9B6;
+    margin: auto;
+    text-align: center;
+    color: #285430;
+}
+#logo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}    
+#sosyal{
+    width: 200px;
+    height: 40px;
+    border-style:none;
+    border-width: 1px;
+    background-color:#E5D9B6;
+    float: right;
+    position: relative;
+    top:12px;
+    right: 20px;
+}   
+
+#ikon{
+    width: 60px;
+    height: 40px;
+    float: right;
+    margin-left:6px ;
+}
+#anamenu{
+    background-color:white;
+    width: 100%;
+    min-height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    margin: auto;
+    text-align: center;
+    color: #285430;
+}
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+    width: 300px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 6px;
+    border-color: #E5D9B6;
+    background-color:white;
+    float: left;
+    padding: 5px;
+    margin-left: 17px;
+    position: relative;
+    top: 6px;
+    text-align: center;
+}
+#anamenu ul a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+#anamenu ul a:link{
+    color: #285430;
+}
+
+#anamenu ul a:hover{
+    color:#A4BE7B;
+    text-decoration: underline;
+}
+#anamenu ul a:active{
+    color:#E5D9B6;
+}
+#anamenu ul a:active{
+    color:#285430;
+}
+#icerik{
+    width: 100%;
+    min-height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    
+}
+.görsel{
+    width: 320px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.resim{
+    margin-left: 500px;
+    margin-top: 30px;
+}
+.metin{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;    
+    margin-top: 30px;
+}
+.metin2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 180px;
+}    
+.baslik{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color:#A4BE7B;
+    text-align: center;
+    margin-top: 10px;
+}
+#altmenu{
+    width: 100%;
+    height: 70px;
+    border-style: solid;
+    border-width: 2px;
+    background-color:#E5D9B6;
+    text-align: center;
+    color: #285430;
+}
+#altmenu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: border;
+    color: black;
+    text-decoration: none;
+}
+#altmenu a:hover{
+    color:#A4BE7B;
+    text-decoration: underline;
+}
